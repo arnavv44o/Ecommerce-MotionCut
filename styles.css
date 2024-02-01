@@ -1,0 +1,177 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+.product {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover img {
+    transform: scale(1.1);
+}
+
+h2, p {
+    transition: color 0.3s ease-in-out;
+}
+
+.product:hover h2, .product:hover p {
+    color: #4CAF50;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+.short-description {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.full-description {
+    max-height: 500px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button.cta-button, button.learn-more-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button.cta-button:hover, button.learn-more-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+    color: #4CAF50;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.description {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.description.visible {
+    max-height: 500px;
+}
+
+.toggle-description-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.toggle-description-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+.description {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.description.visible {
+    max-height: 500px;
+    margin-top: 20px;
+}
+
+.toggle-description-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+.toggle-description-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+.description {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.description.visible {
+    max-height: 500px;
+}
+
+.description p {
+    line-height: 1.5;
+}
+
+.toggle-description-button {
+    margin-top: 10px;
+}
